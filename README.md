@@ -1,2 +1,3 @@
-# wordpress_post_multicontributers
-Adds custom meta box for wordpress author list and check boxes to make them as a contributors and displays these contributors on post.
+##How to Use
+1. Check the list of contributors you want to show from "Contributor" meta box on post edit page and save/update the post.
+2. Your post will now have a selected contributors displayed just after post content.
