@@ -1,0 +1,31 @@
+# Ignore WordPress core files
+/wordpress/
+
+# Ignore logs and cache files
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.swp
+.cache/
+.cache/*
+logs/
+logs/*
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore Node.js dependencies
+/node_modules/
+
+# Ignore environment-specific configuration files
+/.env
+/.env.*
+
+# Ignore IDE and editor configuration files
+.idea/
+.vscode/
+*.sublime-*
+*.vscode-*
+
+phpunit.xml*

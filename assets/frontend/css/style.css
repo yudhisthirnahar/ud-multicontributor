@@ -1,0 +1,29 @@
+/* Frontend style */
+div.udmc-multicontributors {
+  padding: 10px;
+  border: 1px dashed;
+}
+div.udmc-multicontributors .udmc-heading {
+  margin-bottom: .5rem;
+  font-size: 18px;
+}
+div.udmc-multicontributors ul {
+  list-style: none;
+  margin: 0;
+}
+div.udmc-multicontributors ul li:not(:last-of-type) {
+  margin-bottom: .5rem;
+}
+div.udmc-multicontributors ul li div.udmc-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+div.udmc-multicontributors ul li div.udmc-label img {
+  width: 50px;
+  height: 50px;
+  margin-left: 8px;
+  vertical-align: bottom;
+}
+
+/*# sourceMappingURL=style.css.map */

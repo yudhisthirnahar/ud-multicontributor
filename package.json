@@ -1,0 +1,30 @@
+{
+  "name": "ud-multicontributor",
+  "version": "1.0.0",
+  "description": "1. Check the list of contributors you want to show from \"Contributor\" meta box on post edit page and save/update the post. 2. Your post will now have a selected contributors displayed just after post content.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudhisthirnahar/ud-multicontributor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yudhisthirnahar/ud-multicontributor/issues"
+  },
+  "homepage": "https://github.com/yudhisthirnahar/ud-multicontributor#readme",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-wp-i18n": "^1.0.3"
+  }
+}
