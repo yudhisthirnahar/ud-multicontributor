@@ -15,7 +15,7 @@ For Installation and development purpose and running phptestcases follow the bel
 1. Make sure you have Node and Composer installed.
 2. Go to the project root folder in command line.
 3. Type the command: `composer install` and then `composer dump-autoload` to install composer dependencies and generate autoload file.
-4. Type the command:`composer test` to run the phptest cases  
+4. For phptest cases create a seperate database and update the DB configuration details like `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASSWORD` etc. in the file: `/tests/wp-config.php` and then type the command:`composer test` to run the phptest cases  
 5. Type the command:`npm install` to download the node depedencies.
 6. Type the command:`grunt` to run the grunt process for compiling scss, minify css, make pot
 
