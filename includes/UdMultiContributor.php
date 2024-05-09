@@ -65,7 +65,6 @@ if ( ! class_exists( 'UdMultiContributer' ) ) {
 		 * @since 1.0.0
 		 */
 		function add_custom_meta_box() {
-			error_log('add_custom_meta_box');
 			add_meta_box( 'udmc-meta-box', esc_html__( 'Contributors', 'ud-multicontributor' ), array(
 				$this,
 				'custom_meta_box_markup'
